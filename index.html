@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookList App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+        <i class="fas fa-book-open"></i> My<span class="headcolor">Book</span> List
+        </div>
+        <form action="" id="inForm">
+            <div class="title">
+               
+                <input type="text" id="title" placeholder="Enter Book title...">
+            </div>
+            <div class="author">
+            
+                <input type="text" id="author" placeholder="Enter Author Name....">
+            </div>
+            <div class="isbn">
+               
+                <input type="text" id="isbn" placeholder="Enter ISBN number....">
+            </div>
+            <div class="submit">
+                <input type="submit" id="btn">
+            </div>
+        </form>
+
+        <table class="table table-striped" id="table">
+            <thead>
+                <td>Title</td>
+                <td>Author</td>
+                <td>ISBN</td>
+                <td></td>
+            </thead>
+            <!-- <tr>
+                <td>Hello</td>
+                <td>ZPH</td>
+                <td>12689976</td>
+                <td>X</td>
+            </tr> -->
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
